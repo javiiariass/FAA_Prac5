@@ -143,7 +143,7 @@ bool problemaTapas()
         case 3:
         {
             system("cls");
-            cout << "Probando RUTATAPAS por valoración..." << endl;
+            cout << "Probando RUTATAPAS por Ratio (valoración/tiempo total)..." << endl;
             int tiempo = pedirTiempoDisponible();
 
             cout << "\n\n-----------------\n";
@@ -324,7 +324,7 @@ bool problemaMaraton()
             {
                 vector<Serie> series_maraton_COPIA = series_maraton;
                 system("cls");
-                cout << "Probando Maratón de Serries por valoración..." << endl;
+                cout << "Probando Maratón de Series por valoración..." << endl;
                 int tiempo = pedirTiempoDisponible();
 
                 cout << "\n\n-----------------\n";
@@ -353,7 +353,7 @@ bool problemaMaraton()
             {
                 vector<Serie> series_maraton_COPIA = series_maraton;
                 system("cls");
-                cout << "Probando Maratón de Serries por duracion..." << endl;
+                cout << "Probando Maratón de Series por duracion..." << endl;
                 int tiempo = pedirTiempoDisponible();
 
                 cout << "\n\n-----------------\n";
@@ -381,7 +381,7 @@ bool problemaMaraton()
             {
                 vector<Serie> series_maraton_COPIA = series_maraton;
                 system("cls");
-                cout << "Probando Maratón de Serries por Ratio(valoracion/duracion)..." << endl;
+                cout << "Probando Maratón de Series por Ratio(valoracion/duracion)..." << endl;
                 int tiempo = pedirTiempoDisponible();
 
                 cout << "\n\n-----------------\n";
