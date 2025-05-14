@@ -140,13 +140,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Algoritmos.cpp" />
+    <ClCompile Include="AlgoritmosSERIES.cpp" />
+    <ClCompile Include="AlgoritmosTAPAS.cpp" />
+    <ClCompile Include="AlgoritmosOrdenacion.cpp" />
     <ClCompile Include="Bar.cpp" />
+    <ClCompile Include="capitulo.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Serie.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Algoritmos.h" />
+    <ClInclude Include="AlgoritmosSERIES.h" />
+    <ClInclude Include="AlgoritmosTAPAS.h" />
+    <ClInclude Include="AlgoritmosOrdenacion.h" />
     <ClInclude Include="Bar.h" />
+    <ClInclude Include="capitulo.h" />
+    <ClInclude Include="Serie.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
